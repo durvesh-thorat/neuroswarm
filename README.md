@@ -33,6 +33,16 @@ All 4 evolved configurations were trained across **3 independent seeds** (`101`,
 | **EXP-3** | 3 | 29/240 | 12.1% [8.3, 16.7] | 159.0 | 1.57 (n=29) | 39.6% | 99.7% |
 | **EXP-4** | 3 | 25/240 | 10.4% [6.7, 14.6] | 161.1 | 1.73 (n=25) | 41.7% | 99.3% |
 
+## Visual Diagnostics
+
+[assets/benchmark_comparison.png]
+
+[assets/demo_wallfollower_vs_exp4.gif]
+
+[assets/topology_exp1_vs_exp4.png]
+
+[assets/map_elites_heatmap.png]
+
 ### Pairwise Statistical Significance (Two-Sided Mann-Whitney U, 240 Episodes/Exp)
 
 Most pairwise differences between evolved configurations are **not statistically significant** at `p < 0.05` (full table in `data/benchmarks/ood_significance.csv`):

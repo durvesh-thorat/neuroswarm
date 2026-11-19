@@ -4,7 +4,7 @@
 
 NeuroSwarm Maze Lab is a deterministic research codebase for studying how small, variable-topology NEAT neural networks behave under fog-of-war multi-agent maze navigation with local 2-channel numeric signaling, novelty search, and MAP-Elites.
 
-> **Headline Finding (Honesty First):** On a frozen held-out suite of **80 unseen mazes** (20 per archetype across 15×15 and 21×21 layouts), simple hand-coded wall-follower baselines solve **98.8%–100.0%** of mazes (`79/80` single-hand, `80/80` multi-hand). Under our preliminary 3-seed training budget (`pop_size=40`, `generations=30`), the best evolved configuration (`EXP-3`) solves **12.1%** (`29/240`, 95% CI `[8.3, 16.7]`). Evolved swarms explore no more of the maze than a random walk (`36.5%–41.7%` vs. `42.3%` random), and causal communication controls show that high broadcast activity (`99%+`) acts primarily as symmetry-breaking perturbation rather than semantic teammate coordination.
+> **Headline Finding:** On a frozen held-out suite of **80 unseen mazes** (20 per archetype across 15×15 and 21×21 layouts), simple hand-coded wall-follower baselines solve **98.8%–100.0%** of mazes (`79/80` single-hand, `80/80` multi-hand). Under our preliminary 3-seed training budget (`pop_size=40`, `generations=30`), the best evolved configuration (`EXP-3`) solves **12.1%** (`29/240`, 95% CI `[8.3, 16.7]`). Evolved swarms explore no more of the maze than a random walk (`36.5%–41.7%` vs. `42.3%` random), and causal communication controls show that high broadcast activity (`99%+`) acts primarily as symmetry-breaking perturbation rather than semantic teammate coordination.
 
 ---
 

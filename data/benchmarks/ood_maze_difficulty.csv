@@ -1,0 +1,5 @@
+archetype,mazes,mean_bfs_optimal,mean_detour_ratio,greedy_trapped_pct
+15x15_braided,20,42.8,1.7833999999999999,100.0
+15x15_deceptive,20,24.0,2.0,100.0
+15x15_perfect_dfs,20,46.8,1.9501000000000002,95.0
+21x21_scaled,20,74.4,2.3611,100.0

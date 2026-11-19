@@ -1,0 +1,4 @@
+run,budget_evals,goal_cue,ood_80_solved,note,ood_80_pct,train_final_solve_pct,ood_cov_pct,qd_cov_pct
+EXP-4_seed101_baseline_30g_40p_compass,1200,compass,,See ood_seed_level.csv,,,,
+EXP-4-NoCompass_30g_40p_fog,1200,fog,9.0,,11.25,0.0,,
+EXP-4-Extended_100g_60p_compass,6000,compass,20.0,,25.0,33.33333333333333,46.608944446657716,5.5

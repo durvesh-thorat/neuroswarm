@@ -1,0 +1,36 @@
+{
+  "best_runs": {
+    "EXP-1": "EXP-1_seed101",
+    "EXP-2": "EXP-2_seed101",
+    "EXP-3": "EXP-3_seed101",
+    "EXP-4": "EXP-4_seed303"
+  },
+  "mazes": [
+    "ood_15_deceptive_18",
+    "ood_15_braided_6",
+    "ood_15_perfect_8"
+  ],
+  "replays": {
+    "ood_15_deceptive_18": {
+      "BASELINE-WallFollower": "data/benchmarks/ood_replays/ood_15_deceptive_18__BASELINE-WallFollower.json",
+      "EXP-1": "data/benchmarks/ood_replays/ood_15_deceptive_18__EXP-1.json",
+      "EXP-2": "data/benchmarks/ood_replays/ood_15_deceptive_18__EXP-2.json",
+      "EXP-3": "data/benchmarks/ood_replays/ood_15_deceptive_18__EXP-3.json",
+      "EXP-4": "data/benchmarks/ood_replays/ood_15_deceptive_18__EXP-4.json"
+    },
+    "ood_15_braided_6": {
+      "BASELINE-WallFollower": "data/benchmarks/ood_replays/ood_15_braided_6__BASELINE-WallFollower.json",
+      "EXP-1": "data/benchmarks/ood_replays/ood_15_braided_6__EXP-1.json",
+      "EXP-2": "data/benchmarks/ood_replays/ood_15_braided_6__EXP-2.json",
+      "EXP-3": "data/benchmarks/ood_replays/ood_15_braided_6__EXP-3.json",
+      "EXP-4": "data/benchmarks/ood_replays/ood_15_braided_6__EXP-4.json"
+    },
+    "ood_15_perfect_8": {
+      "BASELINE-WallFollower": "data/benchmarks/ood_replays/ood_15_perfect_8__BASELINE-WallFollower.json",
+      "EXP-1": "data/benchmarks/ood_replays/ood_15_perfect_8__EXP-1.json",
+      "EXP-2": "data/benchmarks/ood_replays/ood_15_perfect_8__EXP-2.json",
+      "EXP-3": "data/benchmarks/ood_replays/ood_15_perfect_8__EXP-3.json",
+      "EXP-4": "data/benchmarks/ood_replays/ood_15_perfect_8__EXP-4.json"
+    }
+  }
+}

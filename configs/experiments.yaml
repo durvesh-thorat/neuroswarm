@@ -1,0 +1,51 @@
+# Controlled 4-Experiment Ablation Matrix for NeuroSwarm Maze Lab
+# Synced to the exact budget executed in the preliminary 3-seed study.
+# Override via CLI (--generations, --pop-size, --seeds, --goal-cue-mode) for extended runs.
+defaults:
+  num_agents: 3
+  vision_radius: 2
+  comm_radius: 4.0
+  max_steps: 110
+  mazes_per_gen: 3
+  pop_size: 40
+  generations: 30
+  seeds: [101, 202, 303]
+  goal_cue_mode: "compass"
+  use_curriculum: true
+
+experiments:
+  EXP-1:
+    name: "EXP-1 (Silent FF Baseline)"
+    neat_config: "configs/neat_feedforward.ini"
+    topology: "feed_forward"
+    evolution_mode: "objective"
+    comm_enabled: false
+    use_map_elites: false
+    research_question: "How far can stateless, uncoordinated agents get?"
+
+  EXP-2:
+    name: "EXP-2 (Comm FF)"
+    neat_config: "configs/neat_feedforward.ini"
+    topology: "feed_forward"
+    evolution_mode: "objective"
+    comm_enabled: true
+    use_map_elites: false
+    research_question: "Does evolved local signaling reduce makespan & overlap?"
+
+  EXP-3:
+    name: "EXP-3 (Comm Recurrent)"
+    neat_config: "configs/neat_recurrent.ini"
+    topology: "recurrent"
+    evolution_mode: "objective"
+    comm_enabled: true
+    use_map_elites: false
+    research_question: "Does recurrence eliminate oscillation in braided/loopy mazes?"
+
+  EXP-4:
+    name: "EXP-4 (Comm Recurrent Hybrid + MAP-Elites)"
+    neat_config: "configs/neat_recurrent.ini"
+    topology: "recurrent"
+    evolution_mode: "hybrid"
+    comm_enabled: true
+    use_map_elites: true
+    research_question: "Does behavioral diversity conquer deceptive traps & improve OOD transfer?"

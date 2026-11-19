@@ -35,13 +35,13 @@ All 4 evolved configurations were trained across **3 independent seeds** (`101`,
 
 ## Visual Diagnostics
 
-[assets/benchmark_comparison.png]
+![Benchmark Comparision](assets/benchmark_comparison.png)
 
-[assets/demo_wallfollower_vs_exp4.gif]
+![Wall Follower vs. EXP4](assets/demo_wallfollower_vs_exp4.gif)
 
-[assets/topology_exp1_vs_exp4.png]
+![Topology EXP1 vs. EXP4](assets/topology_exp1_vs_exp4.png)
 
-[assets/map_elites_heatmap.png]
+![Map Elites Heatmap](assets/map_elites_heatmap.png)
 
 ### Pairwise Statistical Significance (Two-Sided Mann-Whitney U, 240 Episodes/Exp)
 
